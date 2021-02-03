@@ -1,0 +1,151 @@
+$number_tales: 3;
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+form, table {
+    background-color: white;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    padding-top: 14px;
+}
+
+.menu__item {
+    font-size: 20px;
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    border-color: $colorppal;
+}
+
+.menu__item__link{
+    color: #f5f3e7;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.menu__item:hover {
+    background-color: green;
+}
+
+.menu__item__link:hover {
+    color: #f5f3e7;
+}
+
+.menu__item.active {
+    background-color: green;
+}
+.tale {
+    border: solid 1px;
+}
+
+.afterbox {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.carousel__div {
+    float: left;
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 40%;
+    height: 100%;
+}
+
+.carousel__image {
+    height: 100%;
+    width: 500px;
+}
+
+.readme {
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.readme:hover {
+    background-color: white;
+    text-decoration: none;
+    color: green;
+}
+
+.whowe__div {
+    text-align:justify;
+    padding-top: 100px;
+    padding-right: 50px;
+    float:right;
+    width: 45%;
+    color:black;
+}
+
+.whowe__title {
+    text-align: center;
+}
+
+.talemonth__div {
+    height: 105vh;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.talemonth__image {
+    height: 400px;
+}
+
+.talemonth__read {
+    font-size: 18px;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+}
+
+.talemonth__read:hover {
+    text-decoration: none;
+    background-color: white;
+    color:green;
+}
+
+@for $number from 1 through $number_tales {
+    .tale__#{$number} {
+        @extend .tale;
+        @if $number % 2 == 0 {
+            background-color: #52BE80
+        }
+        @else {
+            background-color: #7DCEA0;
+        }
+    }
+}
+
+.form {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+    padding-left: 10px;
+}
+
+.topicsFurther{
+    display: flex;  
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+@mixin size ($width) {
+	width: $width;
+}
+
+.map {
+    @include size(90vw)
+}

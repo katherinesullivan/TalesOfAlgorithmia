@@ -1,0 +1,27 @@
+.titleppal{
+    color: $colorppal;
+    font-family: 'Parisienne', cursive;
+    font-size: 80px;
+    text-align: center;
+}
+
+.titleint {
+    text-align: center;
+    font-size: 24px;
+    color: colorppal;
+    background-color: white;
+}
+
+.titlebox {
+    padding-left: 90vh;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body {
+    background-image: url(../imagenes/book&nautre.jpeg);
+}

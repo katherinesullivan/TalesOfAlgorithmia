@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.titleppal {
+  color: #144D05;
+  font-family: 'Parisienne', cursive;
+  font-size: 80px;
+  text-align: center; }
+
+.titleint {
+  text-align: center;
+  font-size: 24px;
+  color: colorppal;
+  background-color: white; }
+
+.titlebox {
+  padding-left: 90vh;
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+body {
+  background-image: url(../imagenes/book&nautre.jpeg); }
+
+iframe {
+  display: block;
+  margin: auto; }
+
+form, table {
+  background-color: white; }
+
+.menu {
+  margin: 0;
+  padding: 0;
+  padding-top: 14px; }
+
+.menu__item {
+  font-size: 20px;
+  display: inline;
+  text-align: center;
+  padding: 14px 16px;
+  border-color: #144D05; }
+
+.menu__item__link {
+  color: #f5f3e7;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif; }
+
+.menu__item:hover {
+  background-color: green; }
+
+.menu__item__link:hover {
+  color: #f5f3e7; }
+
+.menu__item.active {
+  background-color: green; }
+
+.tale, .tale__1, .tale__2, .tale__3 {
+  border: solid 1px; }
+
+.afterbox {
+  height: 100vh;
+  width: 100%;
+  background-color: white; }
+
+.carousel__div {
+  float: left;
+  padding-top: 50px;
+  padding-left: 10px;
+  width: 40%;
+  height: 100%; }
+
+.carousel__image {
+  height: 100%;
+  width: 500px; }
+
+.readme {
+  font-size: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white; }
+
+.readme:hover {
+  background-color: white;
+  text-decoration: none;
+  color: green; }
+
+.whowe__div {
+  text-align: justify;
+  padding-top: 100px;
+  padding-right: 50px;
+  float: right;
+  width: 45%;
+  color: black; }
+
+.whowe__title {
+  text-align: center; }
+
+.talemonth__div {
+  height: 105vh;
+  width: 100%;
+  background-color: white;
+  text-align: center; }
+
+.talemonth__image {
+  height: 400px; }
+
+.talemonth__read {
+  font-size: 18px;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: green;
+  color: white; }
+
+.talemonth__read:hover {
+  text-decoration: none;
+  background-color: white;
+  color: green; }
+
+.tale__1 {
+  background-color: #7DCEA0; }
+
+.tale__2 {
+  background-color: #52BE80; }
+
+.tale__3 {
+  background-color: #7DCEA0; }
+
+.form {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  left: 25%;
+  padding-left: 10px; }
+
+.topicsFurther {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly; }
+
+.map {
+  width: 90vw; }
+
+ul {
+  color: #630541; }
+
+ol {
+  color: black; }
+
+body {
+  font-weight: 600;
+  word-spacing: 5px; }
+
+legend {
+  background-color: white;
+  font-size: 20px; }
+
+footer {
+  background-color: white;
+  text-align: center; }
+
+.gridAreas {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  grid-template-columns: 75% 22%;
+  height: 500px;
+  grid-template-areas: "header header" "youtube aside" "discord aside";
+  grid-gap: 10px 20px; }
+
+.gridAreas__item {
+  border: solid 1px black;
+  background-color: white;
+  font-size: 20px;
+  padding: 10px; }
+
+header {
+  grid-area: header; }
+
+section#section1 {
+  grid-area: youtube; }
+
+section#section2 {
+  grid-area: discord; }
+
+aside {
+  grid-area: aside; }
+
+main {
+  padding-left: 1.25%; }
+
+.centrado {
+  text-align: center; }
+
+.smiley {
+  width: 100px;
+  border: solid 1px;
+  margin-left: 47.75%; }
+
+.modal-title {
+  color: #144D05;
+  font-family: 'Parisienne', cursive;
+  font-size: 40px; }
+
+.triggerButton {
+  margin-left: 45%; }
+
+@media (min-width: 720px) {
+  .ajustarImg {
+    width: 630px; } }
