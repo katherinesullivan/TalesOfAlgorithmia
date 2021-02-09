@@ -72,6 +72,10 @@ form, table {
   width: 100%;
   background-color: white; }
 
+.carousel__image {
+  height: 100%;
+  width: 50vh; }
+
 @media (min-width: 768px) {
   .carousel__div {
     float: left;
@@ -105,6 +109,10 @@ form, table {
 
 .whowe__title {
   text-align: center; }
+
+@media (max-width: 767px) {
+  .talemonth__div {
+    display: none; } }
 
 .talemonth__div {
   height: 105vh;
