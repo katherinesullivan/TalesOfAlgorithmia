@@ -12,16 +12,17 @@
     background-color: white;
 }
 
-.titlebox {
-    padding-left: 90vh;
-    height: 100vh;
-    width: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-body {
-    background-image: url(../imagenes/book&nautre.jpeg);
+@media (min-width: 768px){
+    .titlebox {
+        padding-left: 90vh;
+        height: 100vh;
+        width: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    body {
+        background-image: url(../imagenes/book&nautre.jpeg);
+    }
 }
