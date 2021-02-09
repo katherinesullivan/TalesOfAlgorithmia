@@ -21,8 +21,12 @@
         align-items: center;
         justify-content: center;
     }
-    
+
     body {
         background-image: url(../imagenes/book&nautre.jpeg);
     }
+}
+
+body {
+    background-image: none;
 }
