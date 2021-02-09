@@ -72,16 +72,16 @@ form, table {
   width: 100%;
   background-color: white; }
 
-.carousel__div {
-  float: left;
-  padding-top: 50px;
-  padding-left: 10px;
-  width: 40%;
-  height: 100%; }
-
-.carousel__image {
-  height: 100%;
-  width: 500px; }
+@media (min-width: 768px) {
+  .carousel__div {
+    float: left;
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 40%;
+    height: 100%; }
+  .carousel__image {
+    height: 100%;
+    width: 500px; } }
 
 .readme {
   font-size: 20px;
@@ -94,13 +94,14 @@ form, table {
   text-decoration: none;
   color: green; }
 
-.whowe__div {
-  text-align: justify;
-  padding-top: 100px;
-  padding-right: 50px;
-  float: right;
-  width: 45%;
-  color: black; }
+@media (min-width: 768px) {
+  .whowe__div {
+    text-align: justify;
+    padding-top: 100px;
+    padding-right: 50px;
+    float: right;
+    width: 45%;
+    color: black; } }
 
 .whowe__title {
   text-align: center; }
@@ -233,7 +234,7 @@ main {
   transition: color 0.3s ease; }
 
 #menuToggle a:hover {
-  color: tomato; }
+  color: #144D05; }
 
 #menuToggle input {
   display: block;
