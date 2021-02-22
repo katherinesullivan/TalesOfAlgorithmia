@@ -1,0 +1,66 @@
+Seven bridges of Konisberg
+
+The city of Königsberg in Prussia (now Kaliningrad, Russia) was set on both sides of the Pregel River, and included two large islands—Kneiphof and Lomse—which were connected to each other, or to the two mainland portions of the city, by seven bridges. The problem was to devise a walk through the city that would cross each of those bridges once and only once.
+
+By way of specifying the logical task unambiguously, solutions involving either
+
+reaching an island or mainland bank other than via one of the bridges, or
+accessing any bridge without crossing to its other end
+are explicitly unacceptable.
+
+Long ago, in the 18th century, the times of probably one of the most famous mathematicians of all times, Leonhard Euler, The city of Königsberg in Prussia (now Kaliningrad, Russia) was set on both sides of the Pregel River, and included two large islands—Kneiphof and Lomse—which were connected to each other, or to the two mainland portions of the city, by seven bridges as it can be seen in the image
+
+Our story begins in the 18th century, in the quaint town of Königsberg, Prussia on the banks of the Pregel River. In 1254, Teutonic knights founded the city of Königsberg under the lead of Bohemian King Ottoker II after their second crusade against the Prussians. In the Middle Ages, Königsberg became a very important city and trading center with its location strategically positioned on the river. Artwork from the eighteenth century shows Königsberg as a thriving city, where fleets of ships fill the Pregel, and their trade offers a comfortable lifestyle to both the local merchants and their families. The healthy economy allowed the people of the city to build seven bridges across the river, four of them connected the island of Kneiphof with the mainland, two of them did the same with the island of Lomse, and one bridge connected the two islands.
+
+The citizens of Königsberg used to spend Sunday afternoons walking around their beautiful city. While walking, the people of the city decided to create a game for themselves, their goal being to devise a way in which they could walk around the city, crossing each of the seven bridges once and only once.
+
+The game gained popularity since it seemed such a trivial problem but yet noone could find a suitable answer. It was published and it got to the ears of people outside the city.
+
+Even though it remained that nobody could invent a route that would allow them to cross each of the bridges once and only once, still they could not prove that it was impossible.
+
+That, of course, until the problem reached St. Petersburg, home of the famous mathematician Leonard Euler.
+
+Euler found the problem trivial but he was still intrigued by it. In a letter written in 1735 to Giovanni Marinoni, an Italian mathematician and engineer, Euler said:
+
+This question is so banal, but seemed to me worthy of attention in that [neither] geometry, nor algebra, nor even the art of counting was sufficient to solve it. 
+
+Euler believed this problem was related to a topic that Gottfried Wilhelm Leibniz had once discussed and longed to work with, something Leibniz referred to as geometria situs, or geometry of position.  This so-called geometry of position is what is now called graph theory, which Euler introduces and utilizes while solving this famous problem.
+
+On August 26, 1735, Euler presents a paper containing the solution to the Konigsberg bridge problem.  He addresses both this specific problem, as well as a general solution with any number of landmasses and any number of bridges.
+
+Euler tells the reader that to solve this specific problem, he could write down all possible paths, but this technique would take a great deal of time, and would not work for larger configurations with more bridges and land masses.  Because of these issues, Euler decided to choose a different method for solving this problem. He invents a convenient system to represent the problem naming with capital letters the different landmasses as it follows
+<image>
+
+The argument he, then proposes to answer the question is simple and we an understand it thinking it this way:
+
+Let's suppose this route exists and let's consider one of the 4 districts, say A (island of Kneiphoff) and assume the rute doesn't begin there. 
+
+At some point we cross one of the bridges and reach the island, then we leave the island using another bridge. At some other point we return to the island using a thrid bridge and leave using a fourth one. Lastly we will visit the island one last time using the fifth brigde and we will not be able to leave Kneiphoff.
+
+This means the route must end or start in the island. But this happens if we do the same analysis with every district. All of them must be the start or end of the route thus proving we can not find such a route.
+
+Because of the simplicity and elegancy this argument holds the mathematician Paul Erdős, who often referred to "The Book" in which God keeps the best proof of each mathematical theorem, described the demostration given by Euler as one from "The book".
+
+The paper contains a lot more material and carries you further into the line of thought Euler follows as well as bring you a further understanding of what's known as Euler's Theorem and he would sure like you to read it and more information related to the subject of graph theory, the branch of mathematics that this paper is said to give birth to, in the further reading section.
+
+Esto significa que el paseo debe terminar en la isla o comenzar en la isla.
+Pero este misma situación ocurre cuando consideramos cualquiera de los
+otros tres distritos. Todos ellos deben ser extremo inicial o final del paseo. Lo
+que demuestra que no es posible encontrar tal paseo
+
+
+
+luego
+abandonamos la isla a través de otro puente. En otro momento volvemos a
+visitar la isla utilizando un tercer puente y nos vamos por un cuarto puente.
+Luego visitamos la isla una vez más utilizando el quinto y último puente y ya
+no podemos abandonarla
+
+
+
+
+
+
+
+
+

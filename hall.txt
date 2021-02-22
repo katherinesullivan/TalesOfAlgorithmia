@@ -1,0 +1,16 @@
+A long long time ago, in the land ruled by the legendary King Arthur there existed one hundred knights and one hundred ladies.
+Courtesy was sure enough the thing that prevailed at court. So one day King Arthur woke up and proclaimed that all knights and ladies should get married.
+Ladies of the court were asked to write down a list of which of the knights they would be willing to wed, and then hand in their preferences.
+King Arthur then asked Merlin, the magician, his advisor, the bearer of all knowledge, to arrange the marriages between the knights and ladies so to leave everyone married and each lady happy with his husband.
+Within some minutes of analyzing the data presented to Merlin, that being the list in which each lady selected around 10 or some even 20 knights of their like, he knew that what King Arthur wanted was impossible.
+However, Arthur wasn't pleased with this answer. How could that be? There were plenty of elegible men for each lady, how was it that there was no way to arrange the 100 happy marriages?
+Merlin knew the king was stubborn and would not give up his idea until he for himself understood why it was impossible, so Merlin, with his magic, payed a visit to 1935, the time in which Phillip Hall proved the after named <italic>Hall's Mariage Theorem</italic>.
+The theorem states the following:
+<p class="centered">
+	Let G be a partite graph with bipartition (X,Y). Then G contains a matching that saturates all te vertices of X if and only if |N(S)|>=|S| for all S c- X (consider photograph)
+</p>
+This translated to the marriage problem Arthur was having would be:
+ We can only arrange the marriages perfectly if and only if for every group of ladies we choose the number of knights in which them are interested must be the same or a bigger than that of the cuantity of ladies in the group.
+And this is what Merlin explains to Arthur:
+It sure happened that every lady was interested in more than one knight but lets take the eleven fairest ladies of the court. Each one of them had chosen ten knights of their like. But the same ten knights! So should we be to pair every lady with a knight of their like it would happen that at least one lady was left to be alone or one knight would have to be married to two ladies.
+With this simple explanation Arthur was satisfied but Merlin knows the king wants to be no matematician but maybe you do. So he invites you to understand more of the topic and know a variation of his discussion with Arthur that deals with complexity of algorithms for checking solutions given by the theorem in the further reading section. So go ahead follow him!
