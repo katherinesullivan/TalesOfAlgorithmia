@@ -21,3 +21,32 @@ footer {
     text-align: center;
 }
 
+.content__box {
+    background-color: white;
+    text-align: justify;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.image__responsive {
+    height: 75vh;
+}
+
+.tale {
+    padding: 7vh;
+    padding-top: 5vh;
+    border: 0;
+}
+
+.quote {
+    padding: 5vh;
+}
+
+.indent {
+    text-indent: 2%;
+}

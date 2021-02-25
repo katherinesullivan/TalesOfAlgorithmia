@@ -5,14 +5,12 @@
 .titleppal {
   color: #144D05;
   font-family: 'Parisienne', cursive;
-  font-size: 80px;
+  font-size: 60px;
+  padding-bottom: 12%;
   text-align: center; }
 
 .titleint {
-  text-align: center;
-  font-size: 24px;
-  color: colorppal;
-  background-color: white; }
+  text-align: center; }
 
 body {
   background-color: white; }
@@ -22,14 +20,16 @@ body {
 
 @media (min-width: 768px) {
   .titlebox {
-    padding-left: 90vh;
+    margin: 0;
     height: 100vh;
-    width: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    text-align: center; }
   body {
-    background-image: url(../imagenes/book&nautre.jpeg); } }
+    background-image: url(../imagenes/book&nautre.jpeg);
+    background-repeat: no-repeat; } }
 
 iframe {
   display: block;
@@ -177,6 +177,30 @@ legend {
 footer {
   background-color: white;
   text-align: center; }
+
+.content__box {
+  background-color: white;
+  text-align: justify; }
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh; }
+
+.image__responsive {
+  height: 75vh; }
+
+.tale, .tale__1, .tale__2, .tale__3 {
+  padding: 7vh;
+  padding-top: 5vh;
+  border: 0; }
+
+.quote {
+  padding: 5vh; }
+
+.indent {
+  text-indent: 2%; }
 
 .gridAreas {
   display: grid;
