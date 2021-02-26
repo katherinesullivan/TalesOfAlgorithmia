@@ -61,8 +61,10 @@ form, table {
         float: left;
         padding-top: 50px;
         padding-left: 10px;
-        width: 40%;
+        width: 42%;
         height: 100%;
+        display:flex;
+        justify-content: center;
     }
 
     .carousel__image {
@@ -80,16 +82,19 @@ form, table {
 
 .readme:hover {
     background-color: white;
-    text-decoration: none;
     color: green;
+}
+
+.whowe__div {
+    padding: 5vh;
+    text-align: justify;
 }
 
 @media (min-width: 768px) {
     .whowe__div {
-        text-align:justify;
         padding-top: 100px;
-        padding-right: 50px;
-        float:right;
+        padding-right: 5vh;
+        float: right;
         width: 45%;
         color:black;
     }
@@ -99,36 +104,30 @@ form, table {
     text-align: center;
 }
 
-@media (max-width: 767px) {
-    .talemonth__div{
+.read-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.read-btn-link {
+    padding: 2vh 3vh;
+    text-decoration: none;
+    color: white;
+    background-color: $colorppal;
+}
+
+.read-btn-link:hover {
+    background-color: white;
+    color: $colorppal
+}
+
+@media (min-width: 768px) {
+    .read-btn{
         display: none;
     }
 }
 
-.talemonth__div {
-    height: 105vh;
-    width: 100%;
-    background-color: white;
-    text-align: center;
-}
-
-.talemonth__image {
-    height: 400px;
-}
-
-.talemonth__read {
-    font-size: 18px;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: green;
-    color: white;
-}
-
-.talemonth__read:hover {
-    text-decoration: none;
-    background-color: white;
-    color:green;
-}
 
 @for $number from 1 through $number_tales {
     .tale__#{$number} {
