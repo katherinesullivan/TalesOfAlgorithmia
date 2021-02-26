@@ -55,3 +55,14 @@ footer {
     padding: 5vh;
     background-color: white;
 }
+
+@media (min-width: 768px) {
+    @for $var from 1 through 4 {
+        .card-#{$var} {
+            width: 80%;
+        }
+    }
+    .cards {
+        margin-left: 17%;
+    }
+}

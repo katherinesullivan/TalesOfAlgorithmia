@@ -204,6 +204,18 @@ footer {
   padding: 5vh;
   background-color: white; }
 
+@media (min-width: 768px) {
+  .card-1 {
+    width: 80%; }
+  .card-2 {
+    width: 80%; }
+  .card-3 {
+    width: 80%; }
+  .card-4 {
+    width: 80%; }
+  .cards {
+    margin-left: 17%; } }
+
 .gridAreas {
   display: grid;
   grid-template-rows: auto 1fr 1fr;
