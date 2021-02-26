@@ -366,3 +366,36 @@ main {
 @media (max-width: 767px) {
   .menu {
     display: none; } }
+
+.readmore-1:hover {
+  color: white; }
+
+.readmore-1 {
+  color: white; }
+
+.readmore-2:hover {
+  color: white; }
+
+.readmore-2 {
+  color: white; }
+
+.readmore-3:hover {
+  color: white; }
+
+.readmore-3 {
+  color: white; }
+
+.readmore-1 {
+  background-color: #347E1F;
+  color: white; }
+
+.readmore-2 {
+  background-color: #2BB159; }
+
+.readmore-3 {
+  background-color: #16420D; }
+
+.readmore-box {
+  display: flex;
+  justify-content: center;
+  align-items: center; }

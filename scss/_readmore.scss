@@ -1,0 +1,29 @@
+$number_tales: 3;
+
+@for $var from 1 through $number_tales {
+	.readmore-#{$var}:hover {
+		color: white;
+    }
+    .readmore-#{$var} {
+        color: white;
+    }
+}
+
+.readmore-1 {
+    background-color: #347E1F;
+    color: white;
+}
+
+.readmore-2 {
+    background-color: #2BB159;
+}
+
+.readmore-3 {
+    background-color: #16420D;
+}
+
+.readmore-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

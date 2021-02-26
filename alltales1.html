@@ -93,109 +93,130 @@
         <div class="image">
             <img class="img-fluid image__responsive" src="imagenes/konisberg_title1.png" alt="cover bridges konisberg">
         </div>
+        <div class="readmore-box">
+            <button class="btn readmore-1" type="button" data-bs-toggle="collapse" data-bs-target="#readmore1" aria-expanded="false" aria-controls="readmore1">
+                Read
+            </button>
+        </div>
         <br>
-        <h3 class="titleint">Seven Bridges of Könisberg</h3>
-        <div class="tale">
-            <p>Our story begins in the 18th century, in the quaint town of Königsberg, Prussia on the banks of the Pregel River. In 1254, Teutonic knights founded the city of Königsberg under the lead of Bohemian King Ottoker II after their second crusade against the Prussians. In the Middle Ages, Königsberg became a very important city and trading center with its location strategically positioned on the river. Artwork from the eighteenth century shows Königsberg as a thriving city, where fleets of ships fill the Pregel, and their trade offers a comfortable lifestyle to both the local merchants and their families. The healthy economy allowed the people of the city to build seven bridges across the river, four of them connected the island of Kneiphof with the mainland, two of them did the same with the island of Lomse, and one bridge connected the two islands.</p>
-            <p>The citizens of Königsberg used to spend Sunday afternoons walking around their beautiful city. While walking, the people of the city decided to create a game for themselves, their goal being to devise a way in which they could walk around the city, crossing each of the seven bridges once and only once.</p>
-            <p>The game gained popularity since it seemed such a trivial problem but yet noone could find a suitable answer. It was published and it got to the ears of people outside the city.</p>
-            <p>Even though it remained that nobody could invent a route that would allow them to cross each of the bridges once and only once, still they could not prove that it was impossible.</p>
-            <p>That, of course, until the problem reached St. Petersburg, home of the famous mathematician Leonard Euler.</p>
-            <p>Euler found the problem trivial but he was still intrigued by it. In a letter written in 1735 to Giovanni Marinoni, an Italian mathematician and engineer, Euler said:</p>
-                <p class="quote">"This question is so banal, but seemed to me worthy of attention in that [neither] geometry, nor algebra, nor even the art of counting was sufficient to solve it."</p>
-            <p>Euler believed this problem was related to a topic that Gottfried Wilhelm Leibniz had once discussed and longed to work with, something Leibniz referred to as geometria situs, or geometry of position.  This so-called geometry of position is what is now called graph theory, which Euler introduces and utilizes while solving this famous problem.</p>
-            <p>On August 26, 1735, Euler presents a paper containing the solution to the Konigsberg bridge problem.  He addresses both this specific problem, as well as a general solution with any number of landmasses and any number of bridges.</p>
-            <p>In this paper, Euler tells the reader that to solve this specific problem, he could write down all possible paths, but this technique would take a great deal of time, and would not work for larger configurations with more bridges and land masses.  Because of these issues, Euler decided to choose a different method for solving this problem. He invents a convenient system to represent the problem naming with capital letters the different landmasses as it follows</p>
-            
-            <p>The argument he, then proposes to answer the question is simple and we an understand it thinking it this way:</p>
-            <p>Let's suppose this route exists and let's consider one of the 4 districts, say A (island of Kneiphoff) and assume the rute doesn't begin there. </p>
-            <p>At some point we cross one of the bridges and reach the island, then we leave the island using another bridge. At some other point we return to the island using a thrid bridge and leave using a fourth one. Lastly we will visit the island one last time using the fifth brigde and we will not be able to leave Kneiphoff.</p>
-            <p>This means the route must end or start in the island. But this happens if we do the same analysis with every district. All of them must be the start or end of the route thus proving we can not find such a route.</p>
-            <p>Because of the simplicity and elegancy this argument holds the mathematician Paul Erdős, who often referred to "The Book" in which God keeps the best proof of each mathematical theorem, described the demostration given by Euler as one from "The book".</p>
-            <p>The paper contains a lot more material and carries you further into the line of thought Euler follows as well as bring you a further understanding of what's known as Euler's Theorem and he would sure like you to read it and more information related to the subject of graph theory, the branch of mathematics that this paper is said to give birth to, in the further reading section.</p>
+        <div class="collapse" id="readmore1">
+            <h3 class="titleint">Seven Bridges of Könisberg</h3>
+            <div class="tale">
+                <p>Our story begins in the 18th century, in the quaint town of Königsberg, Prussia on the banks of the Pregel River. In 1254, Teutonic knights founded the city of Königsberg under the lead of Bohemian King Ottoker II after their second crusade against the Prussians. In the Middle Ages, Königsberg became a very important city and trading center with its location strategically positioned on the river. Artwork from the eighteenth century shows Königsberg as a thriving city, where fleets of ships fill the Pregel, and their trade offers a comfortable lifestyle to both the local merchants and their families. The healthy economy allowed the people of the city to build seven bridges across the river, four of them connected the island of Kneiphof with the mainland, two of them did the same with the island of Lomse, and one bridge connected the two islands.</p>
+                <p>The citizens of Königsberg used to spend Sunday afternoons walking around their beautiful city. While walking, the people of the city decided to create a game for themselves, their goal being to devise a way in which they could walk around the city, crossing each of the seven bridges once and only once.</p>
+                <p>The game gained popularity since it seemed such a trivial problem but yet noone could find a suitable answer. It was published and it got to the ears of people outside the city.</p>
+                <p>Even though it remained that nobody could invent a route that would allow them to cross each of the bridges once and only once, still they could not prove that it was impossible.</p>
+                <p>That, of course, until the problem reached St. Petersburg, home of the famous mathematician Leonard Euler.</p>
+                <p>Euler found the problem trivial but he was still intrigued by it. In a letter written in 1735 to Giovanni Marinoni, an Italian mathematician and engineer, Euler said:</p>
+                    <p class="quote">"This question is so banal, but seemed to me worthy of attention in that [neither] geometry, nor algebra, nor even the art of counting was sufficient to solve it."</p>
+                <p>Euler believed this problem was related to a topic that Gottfried Wilhelm Leibniz had once discussed and longed to work with, something Leibniz referred to as geometria situs, or geometry of position.  This so-called geometry of position is what is now called graph theory, which Euler introduces and utilizes while solving this famous problem.</p>
+                <p>On August 26, 1735, Euler presents a paper containing the solution to the Konigsberg bridge problem.  He addresses both this specific problem, as well as a general solution with any number of landmasses and any number of bridges.</p>
+                <p>In this paper, Euler tells the reader that to solve this specific problem, he could write down all possible paths, but this technique would take a great deal of time, and would not work for larger configurations with more bridges and land masses.  Because of these issues, Euler decided to choose a different method for solving this problem. He invents a convenient system to represent the problem naming with capital letters the different landmasses as it follows</p>
+                
+                <p>The argument he, then proposes to answer the question is simple and we an understand it thinking it this way:</p>
+                <p>Let's suppose this route exists and let's consider one of the 4 districts, say A (island of Kneiphoff) and assume the rute doesn't begin there. </p>
+                <p>At some point we cross one of the bridges and reach the island, then we leave the island using another bridge. At some other point we return to the island using a thrid bridge and leave using a fourth one. Lastly we will visit the island one last time using the fifth brigde and we will not be able to leave Kneiphoff.</p>
+                <p>This means the route must end or start in the island. But this happens if we do the same analysis with every district. All of them must be the start or end of the route thus proving we can not find such a route.</p>
+                <p>Because of the simplicity and elegancy this argument holds the mathematician Paul Erdős, who often referred to "The Book" in which God keeps the best proof of each mathematical theorem, described the demostration given by Euler as one from "The book".</p>
+                <p>The paper contains a lot more material and carries you further into the line of thought Euler follows as well as bring you a further understanding of what's known as Euler's Theorem and he would sure like you to read it and more information related to the subject of graph theory, the branch of mathematics that this paper is said to give birth to, in the further reading section.</p>
+            </div>
         </div>
 
         <div class="image">
             <img class="img-fluid image__responsive" src="imagenes/hallsmarriage_title1.png" alt="cover hall's marriage">
         </div>
+        <div class="readmore-box">
+            <button class="btn readmore-2" type="button" data-bs-toggle="collapse" data-bs-target="#readmore2" aria-expanded="false" aria-controls="readmore2">
+                Read
+            </button>
+        </div>
         <br>
-        <h3 class="titleint">Hall's marriage theorem</h3>
-        <div class="tale">
-            <p>A long long time ago, in the land ruled by the legendary King Arthur there existed one hundred knights and one hundred ladies.
-                Courtesy was sure enough the thing that prevailed at court. So one day King Arthur woke up and proclaimed that all knights and ladies should get married.</p>
-                
-                <p>Ladies of the court were asked to write down a list of which of the knights they would be willing to wed, and then hand in their preferences.</p>
-                
-                <p>King Arthur then asked Merlin, the magician, his advisor, the bearer of all knowledge, to arrange the marriages between the knights and ladies so to leave everyone married and each lady happy with his husband.</p>
-                
-                <p>Within some minutes of analyzing the data presented to Merlin, that being the list in which each lady selected around 10 or some even 20 knights of their like, he knew that what King Arthur wanted was impossible.</p>
-                
-                <p>However, Arthur wasn't pleased with this answer. How could that be? There were plenty of elegible men for each lady, how was it that there was no way to arrange the 100 happy marriages?</p>
-                
-                <p>Merlin knew the king was stubborn and would not give up his idea until he for himself understood why it was impossible, so Merlin, with his magic, payed a visit to 1935, the time in which Phillip Hall proved the after named <italic>Hall's Mariage Theorem</italic>.</p>
-                
-                <p>The theorem states the following:</p>
-                
-                <p class="centered">
-                    Let G be a partite graph with bipartition (X,Y). Then G contains a matching that saturates all te vertices of X if and only if |N(S)|>=|S| for all S c- X (consider photograph)
-                </p>
-                
-                <p>This translated to the marriage problem Arthur was having would be:</p>
-                
-                <p>We can only arrange the marriages perfectly if and only if for every group of ladies we choose the number of knights in which them are interested must be the same or a bigger than that of the cuantity of ladies in the group.</p>
-                
-                <p>And this is what Merlin explains to Arthur:</p>
-                
-                <p>It sure happened that every lady was interested in more than one knight but lets take the eleven fairest ladies of the court. Each one of them had chosen ten knights of their like. But the same ten knights! So should we be to pair every lady with a knight of their like it would happen that at least one lady was left to be alone or one knight would have to be married to two ladies.</p>
-                
-                <p>With this simple explanation Arthur was satisfied but Merlin knows the king wants to be no matematician but maybe you do. So he invites you to understand more of the topic and know a variation of his discussion with Arthur that deals with complexity of algorithms for checking solutions given by the theorem in the further reading section. So go ahead follow him!</p>
+        <div class="collapse" id="readmore2">
+            <h3 class="titleint">Hall's marriage theorem</h3>
+            <div class="tale">
+                <p>A long long time ago, in the land ruled by the legendary King Arthur there existed one hundred knights and one hundred ladies.
+                    Courtesy was sure enough the thing that prevailed at court. So one day King Arthur woke up and proclaimed that all knights and ladies should get married.</p>
+                    
+                    <p>Ladies of the court were asked to write down a list of which of the knights they would be willing to wed, and then hand in their preferences.</p>
+                    
+                    <p>King Arthur then asked Merlin, the magician, his advisor, the bearer of all knowledge, to arrange the marriages between the knights and ladies so to leave everyone married and each lady happy with his husband.</p>
+                    
+                    <p>Within some minutes of analyzing the data presented to Merlin, that being the list in which each lady selected around 10 or some even 20 knights of their like, he knew that what King Arthur wanted was impossible.</p>
+                    
+                    <p>However, Arthur wasn't pleased with this answer. How could that be? There were plenty of elegible men for each lady, how was it that there was no way to arrange the 100 happy marriages?</p>
+                    
+                    <p>Merlin knew the king was stubborn and would not give up his idea until he for himself understood why it was impossible, so Merlin, with his magic, payed a visit to 1935, the time in which Phillip Hall proved the after named <italic>Hall's Mariage Theorem</italic>.</p>
+                    
+                    <p>The theorem states the following:</p>
+                    
+                    <p class="centered">
+                        Let G be a partite graph with bipartition (X,Y). Then G contains a matching that saturates all te vertices of X if and only if |N(S)|>=|S| for all S c- X (consider photograph)
+                    </p>
+                    
+                    <p>This translated to the marriage problem Arthur was having would be:</p>
+                    
+                    <p>We can only arrange the marriages perfectly if and only if for every group of ladies we choose the number of knights in which them are interested must be the same or a bigger than that of the cuantity of ladies in the group.</p>
+                    
+                    <p>And this is what Merlin explains to Arthur:</p>
+                    
+                    <p>It sure happened that every lady was interested in more than one knight but lets take the eleven fairest ladies of the court. Each one of them had chosen ten knights of their like. But the same ten knights! So should we be to pair every lady with a knight of their like it would happen that at least one lady was left to be alone or one knight would have to be married to two ladies.</p>
+                    
+                    <p>With this simple explanation Arthur was satisfied but Merlin knows the king wants to be no matematician but maybe you do. So he invites you to understand more of the topic and know a variation of his discussion with Arthur that deals with complexity of algorithms for checking solutions given by the theorem in the further reading section. So go ahead follow him!</p>
+            </div>
         </div>
 
         <div class="image">
             <img class="img-fluid image__responsive" src="imagenes/greedycompany_title.png" alt="cover greedy company">
         </div>
+        <div class="readmore-box">
+            <button class="btn readmore-3" type="button" data-bs-toggle="collapse" data-bs-target="#readmore3" aria-expanded="false" aria-controls="readmore3">
+                Read
+            </button>
+        </div>
         <br>
-        <h3 class="titleint">A greedy company</h3>
-        <div class="tale">
-            <p>Thomas Hanks never sleeps, he has dedicated each and every minute of his days to KarpTrans, his railway cargo company. This night he isn't sleeping either, but not because of his work. This night is different and will turn even more different when Edmond arrives.</p>
+        <div class="collapse" id="readmore3">
+            <h3 class="titleint">A greedy company</h3>
+            <div class="tale">
+                <p>Thomas Hanks never sleeps, he has dedicated each and every minute of his days to KarpTrans, his railway cargo company. This night he isn't sleeping either, but not because of his work. This night is different and will turn even more different when Edmond arrives.</p>
 
-            <p>However, we will not dig up on that so soon, first we should start from the beginning.</p>
+                <p>However, we will not dig up on that so soon, first we should start from the beginning.</p>
 
-            <p>October. Fourth consecutive month in which KarpTrans hasn't made enough to even cover up its employees' salaries. Hanks as could be predicted is devastated. He has tried everything, his head has been going through everything and he has tried everything: their prices could get not higher and they would accept anyone as a client. The latter being the reason why three months prior he had met Edmond, owner of a cellphone company, whose products were now being transported by KarpTruck.</p>
+                <p>October. Fourth consecutive month in which KarpTrans hasn't made enough to even cover up its employees' salaries. Hanks as could be predicted is devastated. He has tried everything, his head has been going through everything and he has tried everything: their prices could get not higher and they would accept anyone as a client. The latter being the reason why three months prior he had met Edmond, owner of a cellphone company, whose products were now being transported by KarpTruck.</p>
 
-            <p>Edmond was a man of maths as Thomas would call him. He always had some riddle to share, some knowledge they would both enjoy. And that's how the two of them became good friends.</p> 
+                <p>Edmond was a man of maths as Thomas would call him. He always had some riddle to share, some knowledge they would both enjoy. And that's how the two of them became good friends.</p> 
 
-            <p>Nevertheless, the time they spent together was getting shorter and shorter as the KarpTrans's finanaces kept worsening. And it is little to say Edmond was not happy with this. He struggled to make friends and having Thomas by his side really made him thank existance.</p>
+                <p>Nevertheless, the time they spent together was getting shorter and shorter as the KarpTrans's finanaces kept worsening. And it is little to say Edmond was not happy with this. He struggled to make friends and having Thomas by his side really made him thank existance.</p>
 
-            <p>So, this brings us to a morning in October where they are both sitting at a café. Thomas is just going on and on about how he's gonna lose it all when Edmond interrupted him and in his most serious voice said</p>
+                <p>So, this brings us to a morning in October where they are both sitting at a café. Thomas is just going on and on about how he's gonna lose it all when Edmond interrupted him and in his most serious voice said</p>
 
-            <p class="indent">"You are going to do the following and don't doubt when I say this is the best option you have. You are going to study each route your trains go through, you are going to know what's the maximung cargo capacity they could be holding and then you are going to locate boms so as to ensure that not even one good might make it from its source to its destination. However, I really need you to take this seriously you have to study beforehand in order to know how to place the minimum amount of bombs thus having the minimum chance of getting caught. Then you will be able to cash in money from the insurance company and something more that I'm not going to reveal to you until this is done. But you have to trust me. Do as I say."</p>
+                <p class="indent">"You are going to do the following and don't doubt when I say this is the best option you have. You are going to study each route your trains go through, you are going to know what's the maximung cargo capacity they could be holding and then you are going to locate boms so as to ensure that not even one good might make it from its source to its destination. However, I really need you to take this seriously you have to study beforehand in order to know how to place the minimum amount of bombs thus having the minimum chance of getting caught. Then you will be able to cash in money from the insurance company and something more that I'm not going to reveal to you until this is done. But you have to trust me. Do as I say."</p>
 
-            <p>And without letting out another word Edmond stood up and left the café, leaving a very disorientated Thomas behind.</p> 
+                <p>And without letting out another word Edmond stood up and left the café, leaving a very disorientated Thomas behind.</p> 
 
-            <p>Hanks thought it through a lot, he didn't want to sabotage his own company but it really seemed like an easy way to cash in a good amount of money and get some time to decide what to do with the falling company that didn't stop produciong losses. He had devised a plan with the requeriments Edmond stated.</p>
+                <p>Hanks thought it through a lot, he didn't want to sabotage his own company but it really seemed like an easy way to cash in a good amount of money and get some time to decide what to do with the falling company that didn't stop produciong losses. He had devised a plan with the requeriments Edmond stated.</p>
 
-            <p>And this takes us to the night where this story started. Thomas isn't sleeping because tomorrow he is going to execute the plan. He is going to bomb his own trains. He is nervous but nothing compared to what he will feel the moment someone rings the doorbell.</p>
+                <p>And this takes us to the night where this story started. Thomas isn't sleeping because tomorrow he is going to execute the plan. He is going to bomb his own trains. He is nervous but nothing compared to what he will feel the moment someone rings the doorbell.</p>
 
-            <p>At this point Hanks is sure it is the police, that they had found out what he was going to do and arrest him. Nothing further from the truth. When he came to his senses Hanks checked who was at his door and Edmond was just standing smiling holding some papers.</p>
+                <p>At this point Hanks is sure it is the police, that they had found out what he was going to do and arrest him. Nothing further from the truth. When he came to his senses Hanks checked who was at his door and Edmond was just standing smiling holding some papers.</p>
 
-            <p>After he let him in the first two questions Hanks made were quite predictable a "what are you doing here?" followed by a "what are those papers?". The way Edmond responded, on the other hand, wasn't thet predictable. He just smiled and hand the papers over.</p>
+                <p>After he let him in the first two questions Hanks made were quite predictable a "what are you doing here?" followed by a "what are those papers?". The way Edmond responded, on the other hand, wasn't thet predictable. He just smiled and hand the papers over.</p>
 
-            <p>In the front page it read Max-flow min-cut theorem. Its thesis stated the maximum value of an s-t flow is equal to the minimum capacity over all s-t cuts.</p>
+                <p>In the front page it read Max-flow min-cut theorem. Its thesis stated the maximum value of an s-t flow is equal to the minimum capacity over all s-t cuts.</p>
 
-            <p>Hanks could not get hold of it so he just asked Hanks againg what was all this. And so he started explaining.</p>
+                <p>Hanks could not get hold of it so he just asked Hanks againg what was all this. And so he started explaining.</p>
 
-            <p>Edmond began by translating the thesis by saying that it stated that the maximum amount of flow passing from the source to the sink is equal to the smallest total weight of the edges which if removed would disconnect the source from the sink. He then asked Thomas what was that he had asked him to do.</p>
+                <p>Edmond began by translating the thesis by saying that it stated that the maximum amount of flow passing from the source to the sink is equal to the smallest total weight of the edges which if removed would disconnect the source from the sink. He then asked Thomas what was that he had asked him to do.</p>
 
-            <p class="indent">"To bomb my company", he simply said.</p>
+                <p class="indent">"To bomb my company", he simply said.</p>
 
-            <p class="indent">"Well that's true but not all I said. I told you to find a way to put the least amount of possible bombs in order to ensure that not even one good makes it from its source to its destination. That's your min-cut. You, because I know you did what I asked, have found the min-cut and can therefore know its capacity and thus knowing the  maximum flow we can get. That's why I wanted you to do this.", Edmond replied with tranquility.</p>
+                <p class="indent">"Well that's true but not all I said. I told you to find a way to put the least amount of possible bombs in order to ensure that not even one good makes it from its source to its destination. That's your min-cut. You, because I know you did what I asked, have found the min-cut and can therefore know its capacity and thus knowing the  maximum flow we can get. That's why I wanted you to do this.", Edmond replied with tranquility.</p>
 
-            <p class="indent">"And with the help of the misters Ford and Fulkerson and their algorithm which is in this paper explained we are going to be able to devise a maximum flow for your company, which is to say a way to maximize the goods your transport whilst using the same amount of trains and trips. Tomorrow you are not going to bomb your company, you are going to make the most out of it.", he then continued.</p>
+                <p class="indent">"And with the help of the misters Ford and Fulkerson and their algorithm which is in this paper explained we are going to be able to devise a maximum flow for your company, which is to say a way to maximize the goods your transport whilst using the same amount of trains and trips. Tomorrow you are not going to bomb your company, you are going to make the most out of it.", he then continued.</p>
 
-            <p>The grin in Hanks' face did all the talking. He should but he couldn't be mad.</p>
+                <p>The grin in Hanks' face did all the talking. He should but he couldn't be mad.</p>
 
-            <p>Even though Edmond made it hard for Thomas with all the suspense and not getting straight to the point he promises you he will be direct while sharing information about the history of this mathematical findings and the greedy algorithm that inspired Ford-Fulkerson as well as the paper in Edmonds hands and how Edmonds and Karp made an even more interesting algorithm that Ford-Fulkerson's one. All of this in the further reading section.</p>
+                <p>Even though Edmond made it hard for Thomas with all the suspense and not getting straight to the point he promises you he will be direct while sharing information about the history of this mathematical findings and the greedy algorithm that inspired Ford-Fulkerson as well as the paper in Edmonds hands and how Edmonds and Karp made an even more interesting algorithm that Ford-Fulkerson's one. All of this in the further reading section.</p>
+            </div>
         </div>
     </div>
     
