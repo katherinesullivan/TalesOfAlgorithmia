@@ -122,6 +122,19 @@ form, table {
     color: $colorppal
 }
 
+.btn-further {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-further:hover {
+    color: black;
+}
+
+.card {
+    text-align: left;
+}
+
 @media (min-width: 768px) {
     .read-btn{
         display: none;
@@ -141,12 +154,10 @@ form, table {
     }
 }
 
-.form {
-    width: 50%;
-    height: 50%;
-    position: relative;
-    left: 25%;
-    padding-left: 10px;
+.btn-form {
+    background-color: $colorppal;
+    color: white;
+    margin-bottom: 0.75rem;
 }
 
 .topicsFurther{

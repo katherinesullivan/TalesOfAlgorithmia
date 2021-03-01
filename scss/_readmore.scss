@@ -2,7 +2,7 @@ $number_tales: 3;
 
 @for $var from 1 through $number_tales {
 	.readmore-#{$var}:hover {
-		color: white;
+		color: black;;
     }
     .readmore-#{$var} {
         color: white;

@@ -1,9 +1,9 @@
-ul {
-    color: #630541;
+li a {
+    color: #212529;
 }
 
-ol {
-    color: black;
+li a:hover {
+    color: $colorppal;
 }
 
 body {
@@ -11,15 +11,6 @@ body {
     word-spacing: 5px;
 }
 
-legend {
-    background-color: white;
-    font-size: 20px;
-}
-
-footer {
-    background-color: white;
-    text-align: center;
-}
 
 .content__box {
     background-color: white;
@@ -65,4 +56,12 @@ footer {
     .cards {
         margin-left: 17%;
     }
+}
+
+form {
+    width: 75%;
+    height: 75%;
+    position: relative;
+    left: 10%;
+    padding-left: 1rem;
 }
