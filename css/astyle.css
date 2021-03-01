@@ -338,3 +338,8 @@ form {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.text404 {
+  color: #144D05;
+  font-family: 'Parisienne', cursive;
+  text-align: center; }
