@@ -32,13 +32,6 @@ body {
     background-image: url(../assets/book&nautre.jpeg);
     background-repeat: no-repeat; } }
 
-iframe {
-  display: block;
-  margin: auto; }
-
-form, table {
-  background-color: white; }
-
 .menu {
   margin: 0;
   padding: 0;
