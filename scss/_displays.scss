@@ -100,10 +100,6 @@ form, table {
     }
 }
 
-.whowe__title {
-    text-align: center;
-}
-
 .read-btn {
     display: flex;
     align-items: center;
@@ -141,36 +137,13 @@ form, table {
     }
 }
 
-
-@for $number from 1 through $number_tales {
-    .tale__#{$number} {
-        @extend .tale;
-        @if $number % 2 == 0 {
-            background-color: #52BE80
-        }
-        @else {
-            background-color: #7DCEA0;
-        }
-    }
-}
-
 .btn-form {
     background-color: $colorppal;
     color: white;
     margin-bottom: 0.75rem;
 }
 
-.topicsFurther{
-    display: flex;  
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-evenly;
-}
-
-@mixin size ($width) {
-	width: $width;
-}
-
-.map {
-    @include size(90vw)
+.icon {
+    color: $colorppal;
+    font-size: 2.5rem;
 }

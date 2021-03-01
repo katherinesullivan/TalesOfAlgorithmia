@@ -65,7 +65,7 @@ form, table {
 .menu__item.active {
   background-color: green; }
 
-.tale, .tale__1, .tale__2, .tale__3 {
+.tale {
   border: solid 1px; }
 
 .afterbox {
@@ -112,9 +112,6 @@ form, table {
     width: 45%;
     color: black; } }
 
-.whowe__title {
-  text-align: center; }
-
 .read-btn {
   display: flex;
   align-items: center;
@@ -144,28 +141,14 @@ form, table {
   .read-btn {
     display: none; } }
 
-.tale__1 {
-  background-color: #7DCEA0; }
-
-.tale__2 {
-  background-color: #52BE80; }
-
-.tale__3 {
-  background-color: #7DCEA0; }
-
 .btn-form {
   background-color: #144D05;
   color: white;
   margin-bottom: 0.75rem; }
 
-.topicsFurther {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content: space-evenly; }
-
-.map {
-  width: 90vw; }
+.icon {
+  color: #144D05;
+  font-size: 2.5rem; }
 
 li a {
   color: #212529; }
@@ -190,7 +173,7 @@ body {
 .image__responsive {
   height: 75vh; }
 
-.tale, .tale__1, .tale__2, .tale__3 {
+.tale {
   padding: 7vh;
   padding-top: 5vh;
   border: 0; }
@@ -223,55 +206,6 @@ form {
   position: relative;
   left: 10%;
   padding-left: 1rem; }
-
-.gridAreas {
-  display: grid;
-  grid-template-rows: auto 1fr 1fr;
-  grid-template-columns: 75% 22%;
-  height: 500px;
-  grid-template-areas: "header header" "youtube aside" "discord aside";
-  grid-gap: 10px 20px; }
-
-.gridAreas__item {
-  border: solid 1px black;
-  background-color: white;
-  font-size: 20px;
-  padding: 10px; }
-
-header {
-  grid-area: header; }
-
-section#section1 {
-  grid-area: youtube; }
-
-section#section2 {
-  grid-area: discord; }
-
-aside {
-  grid-area: aside; }
-
-main {
-  padding-left: 1.25%; }
-
-.centrado {
-  text-align: center; }
-
-.smiley {
-  width: 100px;
-  border: solid 1px;
-  margin-left: 47.75%; }
-
-.modal-title {
-  color: #144D05;
-  font-family: 'Parisienne', cursive;
-  font-size: 40px; }
-
-.triggerButton {
-  margin-left: 45%; }
-
-@media (min-width: 720px) {
-  .ajustarImg {
-    width: 630px; } }
 
 #menuToggle {
   display: block;
