@@ -334,7 +334,8 @@ form {
 .text-error {
   color: #144D05;
   font-family: 'Parisienne', cursive;
-  text-align: center; }
+  text-align: center;
+  font-size: 4rem; }
 
 .return-home {
   text-decoration: none;
